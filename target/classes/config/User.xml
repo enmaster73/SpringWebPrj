@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="myspring.user.dao.UserMapper">
+
+	<select id="selectUserById" parameterType="string"  resultType="User">
+	 	select * from Users where userid=#{id}
+	</select>
+	
+	<select id="selectUserList" resultType="User">
+		select * from Users order by userid
+	</select>
+	
+	<insert id="insertUser" parameterType="User">
+		insert into Users values(#{userId},#{name},#{gender},#{city} )
+	</insert>
+
+	<update id="updateUser" parameterType="User">
+		update Users set
+		name =
+		#{name},
+		gender = #{gender},
+		city = #{city}
+		where userid = #{userId}
+	</update>
+
+	<delete id="deleteUser" parameterType="string">
+		delete from Users where
+		userid = #{value}
+	</delete>
+</mapper>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
