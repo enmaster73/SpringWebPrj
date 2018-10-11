@@ -43,6 +43,12 @@
 					<a href="insertUserForm.do">사용자 등록</a>
 				</td>
 			</tr>
+			<tr>
+				<td colspan="7">
+					<a href="angular/youtube/angular_sample.html">angularjs sample</a><p>
+					<a href="angular/directive/angular_directive.html">angularjs directive sample</a>
+				</td>
+			</tr>
 		</tbody> 
 	</table>
 	</div>
