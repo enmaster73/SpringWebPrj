@@ -1,0 +1,11 @@
+<form name="todoForm" ng-submit="add(newTodoTitle)">
+        <div class="input-group">
+          <input type="text" class="form-control" ng-model="newTodoTitle" placeholder="input new todo" minlength="3">
+          <span class="input-group-btn">
+            <button class="btn btn-success" type="summit">add</button>
+          </span>
+        </div>
+        <div ng-show="todoForm.$dirty && todoForm.$invalid">
+          <div class="alert alert-warning" role="alert">input character mote than 3...</div>
+        </div>
+      </form>
