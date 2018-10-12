@@ -46,7 +46,8 @@
 			<tr>
 				<td colspan="7">
 					<a href="angular/youtube/angular_sample.html">angularjs sample</a><p>
-					<a href="angular/directive/angular_directive.html">angularjs directive sample</a>
+					<a href="angular/directive/angular_directive.html">angularjs directive sample</a><p>
+					<a href="angular/ngroute/angular_ngroute.html">angularjs ng-route</a>
 				</td>
 			</tr>
 		</tbody> 
